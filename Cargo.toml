@@ -1,0 +1,12 @@
+[package]
+name = "mstring"
+version = "0.1.0"
+authors = ["jmurray <john@gardenway.org>"]
+edition = "2018"
+
+keywords = ["string", "case", "snake", "camel", "unicode"]
+include = ["Cargo.toml", "src/**/*.rs"]
+[dependencies]
+stfu8 = "*"
+unidecode = "*"
+unicode-segmentation = "*"
